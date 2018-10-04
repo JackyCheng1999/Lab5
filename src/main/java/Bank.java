@@ -12,6 +12,7 @@ public class Bank {
     public String bankName;
 
     public Bank() {
+
         bankName = "Illini Bank";
     }
 
@@ -26,9 +27,7 @@ public class Bank {
      * @return boolean
      */
     public boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
-        /*
-         * Implement this function
-         */
+        return true;
     }
 
     /**
@@ -42,9 +41,7 @@ public class Bank {
      * @return boolean
      */
     public boolean depositMoney(final BankAccount bankAccount, final double amount) {
-        /*
-         * Implement this function
-         */
+        bankAccount.accountbalance += amount;
     }
 
     /**
